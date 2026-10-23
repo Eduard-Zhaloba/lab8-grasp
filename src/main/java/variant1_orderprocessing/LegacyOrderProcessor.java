@@ -2,7 +2,7 @@ package variant1_orderprocessing;
 
 import java.util.Scanner;
 
-public class OrderProcessor {
+public class LegacyOrderProcessor {
     public void processConsoleOrder() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("=== Оформлення замовлення (Refactored) ===");
