@@ -4,6 +4,6 @@ public class Customer {
     public int id;
     public String name;
     public String email;
-    public String type;
+    public String type; 
     public double totalSpent;
 }
