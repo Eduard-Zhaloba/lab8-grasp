@@ -1,0 +1,92 @@
+# ==================================================
+# Java / Maven
+# ==================================================
+
+target/
+out/
+build/
+*.class
+
+# Java archives
+*.jar
+*.war
+*.ear
+
+# ==================================================
+# IntelliJ IDEA / JetBrains
+# ==================================================
+
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea_modules/
+
+# JetBrains local files
+*.shelf/
+*.hprof
+
+# ==================================================
+# Eclipse / VS Code / NetBeans
+# ==================================================
+
+.classpath
+.project
+.settings/
+.factorypath
+.vscode/
+
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# ==================================================
+# Logs / Temporary files
+# ==================================================
+
+*.log
+logs/
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# ==================================================
+# Operating systems
+# ==================================================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+.Trash-*
+
+# ==================================================
+# Local environment / Secrets
+# ==================================================
+
+.env
+.env.*
+!.env.example
+
+*.local.properties
+secrets.properties
+
+# ==================================================
+# Runtime-generated data
+# ==================================================
+
+orders.txt
